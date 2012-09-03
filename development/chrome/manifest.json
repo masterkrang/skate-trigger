@@ -1,0 +1,8 @@
+{
+	"name": "skate-trigger",
+	"version": "0.1",
+	"description": "An empty app created by default",
+	"permissions": ["http://*/*", "https://*/*"],
+	"background": {"page": "forge.html"},
+	"manifest_version": 2
+}

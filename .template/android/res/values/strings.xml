@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">APP_NAME_HERE</string>
+    <string name="uuid">UUID_HERE</string>
+    <string name="config_hash">CONFIG_HASH_HERE</string>
+    <string name="trigger_domain">TRIGGER_DOMAIN_HERE</string>
+    <string name="payments_publicKey">PAYMENTS_PUBLIC_KEY_HERE</string>
+    <string name="splashimage">SPLASH_IMAGE_HERE</string>
+    <string name="splashimage_landscape">SPLASH_IMAGE_LANDSCAPE_HERE</string>
+    <string name="facebook_appid" />
+    <string name="disable_ics_acceleration">no</string>
+    <string-array name="modules">
+        <item>io.trigger.forge.android.modules.tools</item><item>io.trigger.forge.android.modules.request</item><item>io.trigger.forge.android.modules.reload</item><item>io.trigger.forge.android.modules.prefs</item><item>io.trigger.forge.android.modules.media</item><item>io.trigger.forge.android.modules.file</item><item>io.trigger.forge.android.modules.contact</item><item>io.trigger.forge.android.modules.internal</item>
+        <item>io.trigger.forge.android.modules.logging</item>
+        <item>io.trigger.forge.android.modules.launchimage</item>
+        <item>io.trigger.forge.android.modules.event</item>
+    </string-array>
+</resources>
