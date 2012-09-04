@@ -1,0 +1,5 @@
+development/
+release/
+.template/
+local_config.json
+src/identity.json
