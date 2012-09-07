@@ -1,5 +1,6 @@
 development/
 release/
+node_modules/
 .template/
 forge-error.log
 local_config.json
