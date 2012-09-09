@@ -2,12 +2,15 @@
 <html>
 	<head>
 	<title>SK8APP</title>
+	<link rel="stylesheet" href="css/loader.css" />
 	<link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+	<script src="https://trigger.io/catalyst/target/target-script-min.js#8533D29B-97AB-4A9E-ABCE-DB737B22F5FC"></script>
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
+
 <div data-role="page">
 
 	<div data-role="header">
@@ -15,29 +18,25 @@
 	</div><!-- /header -->
 
 	<div data-role="content">
-        <p>
-        Username:
-	</p>
-        <p>
-        <input type="text" name="username" value="" />
-	</p>
-        <p>
-        Password:
-	</p>
-        <p>
-        <input type="password" name="password" value="" />
-	</p>
-        <p>
-        <button type="button" onclick="alert(username.text + ' ' + password.text)">Login</button>
-	</p>
+	  <form id="login" action="http://0.0.0.0:3000/signin.json">
+      <p>Username:</p>
+      <input type="text" name="username" value="" />
+      <p>Password:</p>
+      <input type="password" name="pwd" value="" />
+      <input id="submit_button" type="submit" value="submit">Login</button>
+    </form>
 	</div><!-- /content -->
 
 	<div data-role="footer">
 	<p>
-        Here's an advertisment.
+        Here's an advertisement.
 	</p>
+	<div id="loader">Loading...</div>
 	</div><!-- /footer -->
 
 </div><!-- /page -->
+
+
+
 </body>
 </html>
